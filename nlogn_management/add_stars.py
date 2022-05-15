@@ -15,7 +15,7 @@ from requests.exceptions import HTTPError
 
 
 TOKEN = '4718f2553aa5bd49f68457e4d6a592f0285309d53e5dcc0b9456443abed77dd3c63fca16e1d0721029c2c8def8029c9c'
-STARS_GROUPS = {192, 191}
+STARS_GROUPS = {192, 191, 286}
 
 
 # In[3]:
@@ -23,7 +23,7 @@ STARS_GROUPS = {192, 191}
 
 def get_group_stars_id(groups):
     for group in groups:
-        if group['name'].find('звёзд') != -1 and group['id'] in STARS_GROUPS:
+        if (group['name'].find('звёзд') != -1 or group['name'].find('Stars') != -1) and group['id'] in STARS_GROUPS:
             return group['id']
     print('Группа звёздочек не найдена')
     group_id = int(input('Введите id группы звёздочек: '))
