@@ -15,7 +15,7 @@ from requests.exceptions import HTTPError
 
 
 TOKEN = '4718f2553aa5bd49f68457e4d6a592f0285309d53e5dcc0b9456443abed77dd3c63fca16e1d0721029c2c8def8029c9c'
-STARS_GROUPS = {192, 191, 286}
+STARS_GROUPS = {192, 191, 286, 291, 297}
 
 
 # In[3]:
