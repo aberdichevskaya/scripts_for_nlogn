@@ -14,8 +14,8 @@ from requests.exceptions import HTTPError
 # In[2]:
 
 
-TOKEN = '4718f2553aa5bd49f68457e4d6a592f0285309d53e5dcc0b9456443abed77dd3c63fca16e1d0721029c2c8def8029c9c'
-STARS_GROUPS = {192, 191, 286, 291, 297}
+TOKEN = 'c628d42e867ee67d85142e26c8519abde84497d20d53cb74fd25fb5ada568e46f11a8b9827862020123a4d80ba475021'
+STARS_GROUPS = {} #вставьте id своих групп со звёздочкой
 
 
 # In[3]:
